@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "jason_carpet_addition",
+	"version": "${version}",
+	"name": "Jason Carpet Addition",
+	"description": "A set of Carpet rules and tweaks by Jason (currently: ender pearl entity-collision toggle).",
+	"authors": [
+		"Jason"
+	],
+	"contact": {},
+	"license": "CC0-1.0",
+	"icon": "assets/jason_carpet_addition/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.jason.jasoncarpetaddition.JasonCarpetAddition"
+		]
+	},
+	"mixins": [
+		"jason_carpet_addition.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.21.10",
+		"java": ">=21",
+		"fabric-api": "*",
+		"carpet": ">=1.4.188"
+	}
+}
